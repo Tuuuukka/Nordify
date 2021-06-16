@@ -196,6 +196,9 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   border-radius: 10px;
 }
 
+.main-type-metronome {
+  background-color: var(--spice-card) !important;
+}
 
 /* Main area */
 .main-trackList-trackListHeaderStuck.main-trackList-trackListHeader {

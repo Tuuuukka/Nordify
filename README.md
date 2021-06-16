@@ -16,4 +16,4 @@ A Spotify theme using the [Nord](https://github.com/arcticicestudio/nord) color 
 
 ## Notes
 
-This is still a work in progress.
+This is still a work in progress, but quite usable already.
