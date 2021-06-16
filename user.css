@@ -1,0 +1,424 @@
+/* Sidebar */
+.main-navBar-navBarLinkActive,
+.main-navBar-navBarLinkActive:focus,
+.logo {
+  background-color: var(--spice-tab-active) !important;
+  color: var(--spice-main) !important;
+}
+
+.main-likedSongsButton-likedSongsIcon,
+.main-createPlaylistButton-createPlaylistIcon,
+.main-yourEpisodesButton-yourEpisodesIcon {
+  background: var(--spice-text) !important;
+  border-radius: 0px !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton {
+  color: var(--spice-main) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-collectionLinkText,
+.main-createPlaylistButton-button {
+  color: var(--spice-text) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton.main-collectionLinkButton-selected .main-collectionLinkButton-icon {
+  opacity: .7 !important;
+}
+
+
+.main-rootlist-rootlistDividerGradient {
+  background: linear-gradient(180deg, var(--spice-main), transparent);
+}
+
+.main-rootlist-rootlistDivider {
+  background-color: unset !important;
+}
+
+.os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track>.os-scrollbar-handle {
+  background: var(--spice-player);
+}
+
+/* Top queue */
+.queue-tabBar-active {
+  background-color: var(--spice-card) !important;
+}
+
+.queue-tabBar-headerItemLink {
+  color: var(--spice-text) !important;
+}
+
+/* Header backgrounds */
+.main-home-homeHeader,
+.x-441-entityHeader-overlay,
+.main-entityHeader-overlay,
+.main-actionBarBackground-background,
+.main-entityHeader-backgroundColor,
+.x-914-entityHeader-overlay,
+.x-914-actionBarBackground-background {
+  background-color: unset !important;
+  background-image: unset !important;
+}
+
+.main-entityHeader-backgroundColor {
+  background: linear-gradient(var(--spice-player),transparent) !important;
+}
+
+/* Play button in main area */
+.main-playButton-PlayButton.main-playButton-primary {
+  color: var(--spice-main);
+  background-color: var(--spice-button);
+}
+
+.connect-title,
+.connect-header {
+  display: none;
+}
+
+/* Topbar visibility bug */
+.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
+  opacity: unset !important;
+}
+
+.main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)>* {
+  opacity: 0 !important;
+}
+
+/* Remove Topbar background color */
+.main-topBar-background {
+  background-color: unset !important;
+}
+
+.main-topBar-overlay,
+.x-441-actionBarBackground-background {
+  background-color: var(--spice-main) !important;
+}
+
+.main-entityHeader-shadow {
+  box-shadow: 0 04px 20px #21212130;
+}
+
+.main-trackList-active .main-trackList-rowMarker {
+  height: 28px;
+  width: 28px;
+}
+
+.main-trackList-active .main-trackList-number {
+  top: 3px !important;
+}
+
+.main-trackList-playingIcon {
+  animation: rotation 2s infinite linear;
+  background-image: url("data:image/svg+xml,%3Csvg width='54' height='54' viewBox='0 0 54 54' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M46.0963 7.90374C40.9996 2.80695 34.2177 0 27 0C19.7823 0 13.0004 2.80695 7.90374 7.90374C2.80695 13.0005 0 19.7823 0 27C0 34.2177 2.80695 40.9995 7.90374 46.0963C13.0004 51.193 19.7823 54 27 54C34.2177 54 40.9996 51.193 46.0963 46.0963C51.193 40.9995 54 34.2177 54 27C54 19.7823 51.193 13.0005 46.0963 7.90374ZM27 52.2581C13.0726 52.2581 1.74194 40.9274 1.74194 27C1.74194 13.0726 13.0726 1.74194 27 1.74194C40.9274 1.74194 52.2581 13.0726 52.2581 27C52.2581 40.9274 40.9274 52.2581 27 52.2581Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 47.9032C15.474 47.9032 6.09679 38.526 6.09679 27C6.09679 26.519 5.70695 26.129 5.22583 26.129C4.7447 26.129 4.35486 26.519 4.35486 27C4.35486 33.0535 6.70903 38.7415 10.9839 43.0162C15.2586 47.2909 20.9466 49.6452 27 49.6452C27.4811 49.6452 27.871 49.2552 27.871 48.7742C27.871 48.2932 27.4811 47.9032 27 47.9032Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 6.09679C31.9694 6.09679 36.7833 7.8666 40.5548 11.0801C40.7188 11.2198 40.9196 11.2882 41.1192 11.2882C41.3655 11.2882 41.6103 11.1843 41.7826 10.9821C42.0947 10.616 42.0507 10.0662 41.6845 9.75428C37.5982 6.27238 32.383 4.35486 27 4.35486C26.5189 4.35486 26.129 4.74482 26.129 5.22583C26.129 5.70683 26.5189 6.09679 27 6.09679Z' fill='%23A3BE8C'/%3E%3Cpath d='M44.2461 12.3158C43.934 11.9497 43.3844 11.9058 43.0182 12.2177C42.6522 12.5297 42.6082 13.0794 42.9201 13.4455C46.1335 17.2171 47.9032 22.0307 47.9032 27C47.9032 27.481 48.2931 27.871 48.7742 27.871C49.2553 27.871 49.6452 27.481 49.6452 27C49.6452 21.6171 47.7276 16.4022 44.2461 12.3158Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 8.70966C26.5189 8.70966 26.129 9.09962 26.129 9.58062C26.129 10.0616 26.5189 10.4516 27 10.4516C36.1248 10.4516 43.5484 17.8751 43.5484 27C43.5484 27.481 43.9382 27.8709 44.4194 27.8709C44.9005 27.8709 45.2903 27.481 45.2903 27C45.2903 22.1106 43.3888 17.5165 39.9362 14.0638C36.4836 10.611 31.8894 8.70966 27 8.70966Z' fill='%23A3BE8C'/%3E%3Cpath d='M19.0403 43.475C19.1625 43.534 19.2916 43.5621 19.4189 43.5621C19.7424 43.5621 20.0533 43.3809 20.2036 43.07C20.4131 42.637 20.2317 42.1162 19.7986 41.9068C14.0332 39.1192 10.4517 33.4074 10.4517 27C10.4517 26.519 10.0618 26.129 9.58068 26.129C9.09956 26.129 8.70972 26.519 8.70972 27C8.70972 30.5065 9.70297 33.9126 11.5818 36.8499C13.4109 39.7093 15.99 42.0002 19.0403 43.475Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 43.5484C25.6136 43.5484 24.2362 43.3772 22.9064 43.0395C22.4405 42.9211 21.9662 43.2032 21.8479 43.6694C21.7296 44.1357 22.0115 44.6096 22.4778 44.7279C23.9476 45.1012 25.469 45.2903 27 45.2903C27.4811 45.2903 27.8709 44.9004 27.8709 44.4194C27.8709 43.9384 27.4811 43.5484 27 43.5484Z' fill='%23A3BE8C'/%3E%3Cpath d='M27.0001 39.1936C23.5186 39.1936 20.1961 37.7026 17.884 35.103C17.5642 34.7437 17.0139 34.7113 16.6544 35.031C16.2949 35.3506 16.2627 35.9012 16.5824 36.2606C19.2246 39.2315 23.0217 40.9354 27.0001 40.9354C27.4812 40.9354 27.871 40.5454 27.871 40.0644C27.871 39.5834 27.4812 39.1936 27.0001 39.1936Z' fill='%23A3BE8C'/%3E%3Cpath d='M15.2854 33.6645C15.4151 33.6645 15.547 33.6355 15.6711 33.5739C16.1022 33.3606 16.2787 32.8382 16.0653 32.4071C15.2301 30.7193 14.8065 28.9001 14.8065 27C14.8065 26.519 14.4167 26.129 13.9355 26.129C13.4544 26.129 13.0646 26.519 13.0646 27C13.0646 29.1704 13.5489 31.2496 14.5041 33.1797C14.656 33.4866 14.9646 33.6645 15.2854 33.6645Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 13.0645C26.5189 13.0645 26.129 13.4545 26.129 13.9355C26.129 14.4165 26.5189 14.8064 27 14.8064C33.7235 14.8064 39.1935 20.2765 39.1935 27C39.1935 27.481 39.5834 27.871 40.0645 27.871C40.5456 27.871 40.9355 27.481 40.9355 27C40.9355 19.316 34.684 13.0645 27 13.0645Z' fill='%23A3BE8C'/%3E%3Cpath d='M26.9999 24.6774C25.7193 24.6774 24.6774 25.7193 24.6774 27C24.6774 28.2807 25.7193 29.3226 26.9999 29.3226C28.2806 29.3226 29.3225 28.2807 29.3225 27C29.3225 25.7193 28.2806 24.6774 26.9999 24.6774ZM26.9999 27.5807C26.6798 27.5807 26.4193 27.3202 26.4193 27C26.4193 26.6798 26.6798 26.4194 26.9999 26.4194C27.3201 26.4194 27.5806 26.6798 27.5806 27C27.5806 27.3202 27.3201 27.5807 26.9999 27.5807Z' fill='%23A3BE8C'/%3E%3Cpath d='M27 17.3613C21.6852 17.3613 17.3613 21.6852 17.3613 27C17.3613 32.3147 21.6852 36.6387 27 36.6387C32.3149 36.6387 36.6387 32.3147 36.6387 27C36.6387 21.6852 32.3149 17.3613 27 17.3613ZM27 34.8968C22.6458 34.8968 19.1033 31.3542 19.1033 27C19.1033 22.6457 22.6458 19.1032 27 19.1032C31.3543 19.1032 34.8968 22.6457 34.8968 27C34.8968 31.3542 31.3543 34.8968 27 34.8968Z' fill='%23A3BE8C'/%3E%3C/svg%3E%0A");
+  background-size: cover;
+  box-sizing: border-box;
+  height: 28px !important;
+  overflow: hidden;
+  padding-left: 100%;
+  width: 28px !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
+  fill: black;
+}
+
+
+/* Details metadata */
+.main-entityTitle-subtitle.main-entityTitle-gray,
+.main-entityHeader-metaDataText {
+  color: var(--spice-text) !important;
+}
+
+.main-duration-container {
+  color: var(--spice-subtext);
+}
+
+.main-entityTitle-subtitle {
+  color: var(--spice-extratext);
+}
+
+/* Artist page */
+.main-entityHeader-background.main-entityHeader-gradient {
+  opacity: .4;
+}
+
+.main-entityHeader-background.main-entityHeader-overlay:after {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(var(--spice-main), var(--spice-main));
+}
+
+.artist-artistPick-pickComment {
+  background: unset !important;
+  border-radius: 0px !important;
+  border-bottom: solid 2px var(--spice-text) !important;
+  color: var(--spice-text) !important;
+}
+
+.artist-artistSavedTracks-imageContainer .artist-artistSavedTracks-heartIcon {
+  color: var(--spice-card);
+}
+
+/* Home screen */
+.view-homeShortcutsGrid-name {
+  color: var(--spice-button);
+}
+
+.main-shelf-title {
+  color: var(--spice-subtext)
+}
+
+.view-homeShortcutsGrid-shortcut,
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-imageWrapper,
+.main-cardImage-imageWrapper,
+.main-cardImage-imagePlaceholder,
+.main-cardImage-image {
+  border-radius: 10px !important;
+}
+
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-image {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.main-cardImage-circular,
+.main-entityHeader-circle {
+  border-radius: 50% !important;
+}
+
+.main-entityHeader-image {
+  border-radius: 10px;
+}
+
+
+/* Main area */
+.main-trackList-trackListHeaderStuck.main-trackList-trackListHeader {
+  background: var(--spice-main) !important;
+}
+
+.main-addButton-button {
+  color: rgba(var(--spice-rgb-card), .7) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
+  color: var(--spice-tab-active) !important;
+}
+
+.main-trackList-rowMarker {
+  opacity: .5 !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker {
+  opacity: 1 !important;
+}
+
+.main-trackList-rowTitle {
+  color: var(--spice-text) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-selected, 
+.main-trackList-trackListRow.main-trackList-selected:hover {
+  background-color: var(--spice-player);
+}
+
+/* Friend activity */
+.main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
+.main-buddyFeed-activityMetadata .main-buddyFeed-playbackContext a,
+.main-buddyFeed-activityMetadata .main-buddyFeed-usernameAndTimestamp a {
+  color: var(--spice-text) !important;
+}
+
+.main-buddyFeed-activityMetadata .main-buddyFeed-username a {
+  color: var(--spice-subtext) !important;
+}
+
+.main-avatar-avatar.main-avatar-withBadge:after {
+  background: var(--spice-extratext);
+}
+
+/* Setting menu */
+
+.main-dropDown-dropDown {
+  background-color: var(--spice-button-disabled) !important;
+  color: var(--spice-text) !important;
+}
+
+.x-settings-title {
+  color: var(--spice-tab-active) !important;
+}
+
+/* Settings page */
+.x-toggle-indicatorWrapper {
+  background-color: var(--spice-card) !important;
+}
+
+input:checked~.x-toggle-indicatorWrapper {
+  background-color: var(--spice-tab-active) !important;
+}
+
+.main-dropDown-dropDown {
+  background-color: var(--spice-shadow) !important;
+  color: var(--spice-text) !important;
+}
+
+.x-settings-facebookButton {
+  background-color: var(--spice-shadow) !important;
+}
+
+/* Search page */
+input {
+  background-color: unset !important;
+  border-bottom: solid 2px var(--spice-text) !important;
+  border-radius: 0 !important;
+  color: var(--spice-text) !important;
+}
+
+.x-833-searchInput-searchInputSearchIcon {
+  color: var(--spice-text) !important;
+}
+
+.x-833-heroCategoryCard-heroTitle,
+.x-833-categoryCard-title {
+  color: var(--spice-main) !important;
+}
+
+
+/* Menu and dropdown menus including the user menu */
+.main-type-mesto,
+.x-533-dropDown-dropDown {
+  color: var(--spice-text) !important;
+}
+
+.main-userWidget-box {
+  background-color: var(--spice-shadow) !important;
+  border: 0;
+  color: var(--spice-text) !important;
+}
+
+.main-userWidget-box:focus,
+.main-userWidget-box:hover,
+.main-userWidget-box[data-context-menu-open=true] {
+  border-radius: 10px !important;
+}
+
+.main-avatar-image {
+  padding-bottom: 8% !important;
+}
+
+.main-userWidget-dropDownMenu {
+  background-color: var(--spice-sec-player) !important;
+  color: var(--spice-text) !important;
+}
+
+/* Cards */
+
+.main-card-card a,
+.main-card-card button {
+  color: var(--spice-extratext);
+}
+
+.main-card-card:hover,
+.main-card-card[data-context-menu-open=true] {
+  background-color: rgba(var(--spice-rgb-sec-card), .3) !important;
+}
+
+.main-contextMenu-menu,
+.main-card-card:focus-within,
+
+.main-deletePlaylistDialog-container {
+  background-color: var(--spice-sec-card) !important;
+}
+
+.main-keyboardShortcutsHelpModal-container,
+.main-trackCreditsModal-container {
+  background-color: var(--spice-main) !important;
+  color: var(--spice-text) !important;
+}
+
+.main-keyboardShortcutsHelpModal-header,
+.main-trackCreditsModal-header {
+  color: var(--spice-notification) !important;
+}
+
+.main-trackCreditsModal-sectionTitle {
+  color: var(--spice-subtext) !important;
+}
+
+.main-type-canon {
+  color: var(--spice-extratext) !important;
+}
+
+/* Profile page */
+.main-cardImage-imageWrapper {
+  background-color: var(--spice-sec-card) !important;
+}
+
+/* Mini player */
+.progress-bar {
+  --progress-bar-height: 10px !important;
+}
+
+.progress-bar--is-active .progress-bar__fg,
+:not(.no-focus-outline) .progress-bar:focus-within .progress-bar__fg {
+  background-color: var(--fg-color);
+}
+
+.main-shuffleButton-button.main-shuffleButton-on,
+.main-repeatButton-button.main-repeatButton-on {
+  color: var(--spice-button) !important;
+}
+
+.cover-art--with-auto-height {
+  border: solid var(--spice-sec-player) 5px !important;
+}
+
+.cover-art,
+.cover-art .cover-art-image {
+  border-radius: 10px;
+  background-color: var(--spice-sec-player) !important;
+}
+
+.main-nowPlayingBar-container {
+  background-color: var(--spice-sec-player) !important;
+  border-top: unset !important;
+  height: 80px;
+}
+
+.now-playing-bar-container {
+  border-top: 0;
+}
+
+.now-playing-bar, 
+.now-playing-bar-hidden {
+  height: 100px;
+  /* padding: 0 16px 0 0; Add this if full height cover art is used */
+}
+
+.now-playing-bar__left {
+  align-items: center !important;
+  display: flex !important;
+  height: 100% !important;
+}
+
+/* Lets add this when larger cover image is doable 
+.cover-art {
+  height: 100px !important;
+  width: 100px !important;
+} */
+
+.cover-art,
+.cover-art .cover-art-image {
+  border-radius: 0;
+}
+
+.ExtraControls > div + div,
+.ExtraControls > div + button {
+  margin-left: 16px !important;
+}
