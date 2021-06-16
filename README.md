@@ -1,4 +1,4 @@
-# Nordify - A Nord themed Spofity
+# Nordify - A Nord themed Spotify
 
 A Spotify theme using the [Nord](https://github.com/arcticicestudio/nord) color palettes. This theme is initially based on the wonderful [Onepunch](https://github.com/morpheusthewhite/spicetify-themes/tree/v2/Onepunch) theme created by [okarin001](https://github.com/morpheusthewhite/spicetify-themes/commits?author=okarin001).
 
